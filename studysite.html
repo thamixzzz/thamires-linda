@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Um site para organizar meu horário de estudo e minha rotina no geral">
+    <title>Study Time - Minha Rotina de Estudos</title>
+    <link rel="stylesheet" href="../CSS/estilo.css">
+</head>
+<body>
+    <!-- HEADER / NAVEGAÇÃO -->
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <h1 class="logo">📚 Study Time</h1>
+                <ul class="nav-links">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#disciplinas">Disciplinas</a></li>
+                    <li><a href="#horarios">Cronograma</a></li>
+                    <li><a href="#objetivos">Objetivos</a></li>
+                    <li><a href="#progresso">Progresso</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main>
+        <!-- SEÇÃO INICIAL / HERO -->
+        <section id="inicio" class="hero">
+            <div class="container">
+                <h2>Bem-vindo ao meu Organizador de Estudos</h2>
+                <p>Organize sua rotina, acompanhe seu progresso e alcance suas metas acadêmicas.</p>
+                <button class="btn-primary">Começar</button>
+            </div>
+        </section>
+
+        <!-- DISCIPLINAS -->
+        <section id="disciplinas" class="disciplinas">
+            <div class="container">
+                <h2>Minhas Disciplinas</h2>
+                <div class="cards-grid">
+                    <article class="card">
+                        <h3>ENEM</h3>
+                        <p><strong>Conteúdo:</strong> </p>
+                        <p><strong>Método:</strong> </p>
+                        <p><strong>Status:</strong> <span class="status-ativo">Em Progresso</span></p>
+                    </article>
+                    <article class="card">
+                        <h3>DIA 1:</h3>
+                        <p><strong>Conteúdo:</strong> Humanas</p>
+                        <p><strong>Método:
+                        </strong></p>
+                        <p><strong>Status:</strong> <span class="status-ativo">Em Progresso</span></p>
+                    </article>
+                    <article class="card">
+                        <h3>DIA 2:</h3>
+                        <p><strong>Conteúdo:</strong> Exatas</p>
+                        <p><strong>Método:</strong> </p>
+                        <p><strong>Status:</strong> <span class="status-ativo">Em Progresso</span></p>
+                    </article>
+                    <article class="card">
+                        <h3>PROGRAMAÇÃO:</h3>
+                        <p><strong>Conteúdo:</strong> </p>
+                        <p><strong>Método:</strong></p>
+                        <p><strong>Status:</strong> <span class="status-ativo">Em Progresso</span></p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- CRONOGRAMA / HORÁRIOS -->
+        <section id="horarios" class="horarios">
+            <div class="container">
+                <h2>Cronograma de Estudos</h2>
+                <table class="tabela-horarios">
+                    <thead>
+                        <tr>
+                            <th>Dia da Semana</th>
+                            <th>Manhã</th>
+                            <th>Tarde</th>
+                            <th>Noite</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Segunda</strong></td>
+                            <td>Escola</td>
+                            <td>Escola</td>
+                            <td>Matematica</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Terça</strong></td>
+                            <td>Escola</td>
+                            <td>Escola</td>
+                            <td>Fisica</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Quarta</strong></td>
+                            <td>Escola</td>
+                            <td>Escola</td>
+                            <td>Revisão e exercicios</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Quinta</strong></td>
+                            <td>Escola</td>
+                            <td>Escola
+                            </td>
+                            <td>Quimica</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Sexta</strong></td>
+                            <td>Escola</td>
+                            <td>Escola</td>
+                            <td>Biologia</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Sábado</strong></td>
+                            <td colspan="3" class="descanso">Descanso / Programação</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Domingo</strong></td>
+                            <td colspan="3" class="descanso">Planejamento da Semana e Programação</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- OBJETIVOS -->
+        <section id="objetivos" class="objetivos">
+            <div class="container">
+                <h2>Meus Objetivos</h2>
+                <ul class="lista-objetivos">
+                    <li>✓ Melhorar a média em Matemática</li>
+                    <li>✓ Expandir vocabulário e fluência em Inglês</li>
+                    <li>✓ Dominar análise de textos literários em Português</li>
+                    <li>✓ Consolidar conhecimentos de Programação</li>
+                    <li>✓ Estudar com consistência 5 dias por semana</li>
+                    <li>✓ Fazer exercícios práticos diariamente</li>
+                    <li>✓ Participar ativamente em sala de aula</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- PROGRESSO -->
+        <section id="progresso" class="progresso">
+            <div class="container">
+                <h2>Acompanhamento de Progresso</h2>
+                <div class="progresso-items">
+                    <div class="progresso-item">
+                        <h3>Enem(GERAL)</h3>
+                        <div class="barra-progresso">
+                            <div class="progresso-bar" style="width: 75%;"></div>
+                        </div>
+                        <p>0% Completo</p>
+                    </div>
+                    <div class="progresso-item">
+                        <h3>DIA 1</h3>
+                        <div class="barra-progresso">
+                            <div class="progresso-bar" style="width: 80%;"></div>
+                        </div>
+                        <p>0% Completo</p>
+                    </div>
+                    <div class="progresso-item">
+                        <h3>DIA 2</h3>
+                        <div class="barra-progresso">
+                            <div class="progresso-bar" style="width: 60%;"></div>
+                        </div>
+                        <p>0% Completo</p>
+                    </div>
+                    <div class="progresso-item">
+                        <h3>Programação</h3>
+                        <div class="barra-progresso">
+                            <div class="progresso-bar" style="width: 70%;"></div>
+                        </div>
+                        <p>0% Completo</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <h3>Study Time</h3>
+                <p>Meu assistente pessoal para organizar e acompanhar minha rotina de estudos.</p>
+            </div>
+            <p class="copyright">&copy; 2026 Study Time. Todos os direitos reservados a mim.</p>
+
+    </footer>
+
+    <!-- SCRIPT JAVASCRIPT -->
+    <script src="script.js"></script>
+</body>
+</html>
